@@ -22,3 +22,9 @@
   .smaller-image {
     width: 100px;
   }
+   .gray-background {
+    background-color: gray;
+  }
+  #cat-photo-form {
+  background-color: green;
+}
