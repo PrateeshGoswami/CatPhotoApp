@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
-
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
-
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-  </head>
-  <body ng-app="starter">
-
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title red-text">CatPhotoApp</h1>
-      </ion-header-bar>
-      <ion-content>
-      <p>Click here for <a href="http://freecatphotoapp.com">cat photos</a>.</p>
-
-<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat"></a>
-<div class="gray-background">
-<p>Things cats love:</p>
-<ul>
-  <li>cat nip</li>
-  <li>laser pointers</li>
-  <li>lasagna</li>
-</ul>
-<p>Top 3 things cats hate:</p>
-<ol>
-  <li>flea treatment</li>
-  <li>thunder</li>
-  <li>other cats</li>
-</ol>
-</div>
-<form action="/submit-cat-photo" id="cat-photo-form">
-<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-  <input type="text" placeholder="cat photo URL" required>
-  <button type="submit">Submit</button>
-</form>
-
-  <input type="text" placeholder="cat photo URL" required>
-  <button type="submit">Submit</button>
-  <label><input type="checkbox" name="personality" checked> Loving</label>
-  <label><input type="checkbox" name="personality"> Loving</label>
-  <label><input type="checkbox" name="personality"> Loving</label>
-</form>
-
-      </ion-content>
-    </ion-pane>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <title></title>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+      <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+         <link href="css/ionic.app.css" rel="stylesheet">
+         -->
+      <!-- ionic/angularjs js -->
+      <script src="lib/ionic/js/ionic.bundle.js"></script>
+      <!-- cordova script (this will be a 404 during development) -->
+      <script src="cordova.js"></script>
+      <!-- your app's js -->
+      <script src="js/app.js"></script>
+   </head>
+   <body ng-app="starter">
+      <ion-pane>
+         <ion-header-bar class="bar-stable">
+            <h1 class="title red-text text-center">CatPhotoApp</h1>
+         </ion-header-bar>
+         <ion-content>
+            <div class="container-fluid">
+               <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello Kitty cat:)!</h1>
+               <p>Click here for <a href="http://freecatphotoapp.com">cat photos</a>.</p>
+               <a href="#"><img class="img-responsive thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat"></a>
+               <a href="#"><img class=" img-responsive" src="https://bit.ly/fcc-running-cats"></a>
+               <div class="row">
+                  <div class="col-xs-4">
+                     <button class="button button-positive button-block">Like</button>
+                  </div>
+                  <div class="col-xs-4">
+                     <button class="button button-positive button-block btn-info ">Info</button>
+                  </div>
+                  <div class="col-xs-4">
+                     <button class="button button-positive button-block btn-Danger">Delete</button>
+                  </div>
+               </div>
+               <div id="bla"class="gray-background">
+                  <p>Things cats love:</p>
+                  <ul>
+                     <li>cat nip</li>
+                     <li>laser pointers</li>
+                     <li>lasagna</li>
+                  </ul>
+                  <p>Top 3 things cats hate:</p>
+                  <ol>
+                     <li>flea treatment</li>
+                     <li>thunder</li>
+                     <li>other cats</li>
+                  </ol>
+               </div>
+               <form action="/submit-cat-photo" id="cat-photo-form">
+                  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+                  <input type="text" placeholder="cat photo URL" required>
+                  <button type="submit">Submit</button>
+               </form>
+               <input type="text" placeholder="cat photo URL" required>
+               <button type="submit">Submit</button>
+               <label><input type="checkbox" name="personality" checked> Loving</label>
+               <label><input type="checkbox" name="personality"> Loving</label>
+               <label><input type="checkbox" name="personality"> Loving</label>
+               </form>
+            </div>
+         </ion-content>
+      </ion-pane>
+   </body>
 </html>

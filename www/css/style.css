@@ -1,15 +1,25 @@
 /* Empty. Add your own CSS if you like */
 .red-text {
     color: red;
+
   }
+  body {
+  background-color: black;
+}
 
   h2 {
     font-family: Lobster, Monospace;
+    margin: 20px;
+  }
+h1 {
+    font-family: Lobster, Monospace;
+    margin: 20px;
   }
 
   p {
     font-size: 16px;
     font-family: Monospace;
+    padding: 20px;
   }
 
   .thick-green-border {
@@ -18,13 +28,34 @@
     border-style: solid;
     border-radius: 50%;
   }
-
+body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue !important;
+  }
   .smaller-image {
     width: 100px;
+    padding :10px;
+    margin: 20px;
   }
    .gray-background {
     background-color: gray;
+    margin: 20px;
+    padding: 40px 20px 40px 20px;
   }
   #cat-photo-form {
   background-color: green;
+ margin: 20px 40px 20px 40px;
+}
+#bla{
+  color" black;
 }
